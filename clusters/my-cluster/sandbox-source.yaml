@@ -2,11 +2,11 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
 metadata:
-  name: fleet-infra
+  name: sandbox
   namespace: flux-system
 spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/obrin/fleet-infra
+  url: https://github.com/obrin/fluxcd-sandbox
 
