@@ -19,7 +19,7 @@ metadata:
   name: sandbox
   namespace: sandbox
 spec:
-  interval: 5m
+  interval: 2m
   targetNamespace: sandbox
   sourceRef:
     kind: GitRepository
