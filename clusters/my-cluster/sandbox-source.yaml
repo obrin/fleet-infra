@@ -3,7 +3,8 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
 metadata:
   name: sandbox
-  namespace: flux-system
+  # namespace: flux-system
+  namespace: sandbox
 spec:
   interval: 30s
   ref:
