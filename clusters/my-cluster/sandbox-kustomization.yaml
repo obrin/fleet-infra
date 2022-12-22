@@ -12,5 +12,3 @@ spec:
     kind: GitRepository
     name: sandbox
   targetNamespace: sandbox
-  install:
-    createNamespace: true
