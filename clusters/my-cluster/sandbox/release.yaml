@@ -1,16 +1,16 @@
----
-apiVersion: source.toolkit.fluxcd.io/v1beta2
-kind: GitRepository
-metadata:
-  name: sandbox
-  namespace: sandbox
-spec:
-  interval: 30s
-  ref:
-    branch: main
-  url: https://github.com/obrin/fluxcd-sandbox
+# ---
+# apiVersion: source.toolkit.fluxcd.io/v1beta2
+# kind: GitRepository
+# metadata:
+#   name: sandbox
+#   namespace: sandbox
+# spec:
+#   interval: 30s
+#   ref:
+#     branch: main
+#   url: https://github.com/obrin/fluxcd-sandbox
 
----
+# ---
 
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
