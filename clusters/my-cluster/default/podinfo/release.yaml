@@ -12,5 +12,5 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: podinfo
-        namespace: podinfo
+        namespace: default
       interval: 1m
