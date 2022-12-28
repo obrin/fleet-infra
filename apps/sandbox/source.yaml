@@ -2,7 +2,6 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
 metadata:
   name: sandbox
-  namespace: sandbox
 spec:
   interval: 1m
   ref:
