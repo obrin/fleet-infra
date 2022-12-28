@@ -1,10 +1,10 @@
-apiVersion: source.toolkit.fluxcd.io/v1beta2
-kind: GitRepository
-metadata:
-  name: sandbox
-  namespace: sandbox
-spec:
-  interval: 5m
-  ref:
-    branch: main
-  url: https://github.com/obrin/fluxcd-sandbox
+# apiVersion: source.toolkit.fluxcd.io/v1beta2
+# kind: GitRepository
+# metadata:
+#   name: sandbox
+#   namespace: sandbox
+# spec:
+#   interval: 5m
+#   ref:
+#     branch: main
+#   url: https://github.com/obrin/fluxcd-sandbox
