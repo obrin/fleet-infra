@@ -7,7 +7,7 @@ namespace: sandbox
 #   - release.yaml
 spec:
   interval: 2m
-  targetNamespace: sandbox
+  # targetNamespace: sandbox
   sourceRef:
     kind: GitRepository
     name: sandbox
