@@ -19,7 +19,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 2m
-  targetNamespace: playground
+  targetNamespace: sandbox
   sourceRef:
     kind: GitRepository
     name: sandbox
