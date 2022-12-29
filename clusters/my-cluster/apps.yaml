@@ -14,3 +14,29 @@ spec:
   prune: true
   wait: true
   timeout: 5m0s
+
+---
+
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: app-config
+spec:
+  interval: 1m
+  ref:
+    branch: main
+  url: https://github.com/obrin/app-config
+
+---
+
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: app-config
+spec:
+  interval: 2m
+  sourceRef:
+    kind: GitRepository
+    name: app-config
+  path: "./base"
+  prune: true
