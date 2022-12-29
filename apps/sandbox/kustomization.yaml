@@ -4,4 +4,4 @@ namespace: sandbox
 resources:
 - namespace.yaml
 - repository.yaml
-- source.yaml
+- release.yaml
