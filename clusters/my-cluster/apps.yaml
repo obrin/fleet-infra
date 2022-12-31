@@ -9,6 +9,8 @@ spec:
   interval: 1m
   ref:
     branch: main
+  secretRef:
+    name: flux-system
   url: https://github.com/obrin/app-config
 
 ---
