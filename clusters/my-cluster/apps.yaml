@@ -11,9 +11,9 @@ spec:
     branch: main
   secretRef:
     # name: flux-system
-    name: github-token
-  # url: ssh://github.com/obrin/app-config
-  url: https://github.com/obrin/app-config
+    name: app-config
+  url: ssh://github.com/obrin/app-config
+  # url: https://github.com/obrin/app-config
 
 ---
 
